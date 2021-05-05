@@ -3,13 +3,11 @@
 [![Author](https://img.shields.io/badge/author-Lucas_Lousada-f1972c?style=flat-square)](https://github.com/lucaslousada)
 [![Last commit](https://img.shields.io/github/last-commit/lucaslousada/jobs-calc?color=f1972c&style=flat-square)](#)
 [![Languages](https://img.shields.io/github/languages/count/lucaslousada/jobs-calc?color=f1972c&style=flat-square)](#)
-[![License](https://img.shields.io/github/license/lucaslousada/jobs-calc?color=f1972c&style=flat-square)](LICENCE.md)
+[![License](https://img.shields.io/github/license/lucaslousada/jobs-calc?color=f1972c&style=flat-square)](LICENSE.md)
 
 O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar, editar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema.
 
-<p align="center">
-  <img alt="dev.finances" src="./.github/jobscalc-layout.png" width="100%">
-</p>
+<img alt="layout dashboard" src="./.github/jobs-calc-layout.png" width="100%">
 
 ## Tecnologias
 
