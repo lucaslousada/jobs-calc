@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/styles/partials/buttons.css" />
   <link rel="stylesheet" href="/styles/partials/modal.css" />
   <link rel="stylesheet" href="/styles/partials/animations.css" />
+  <link rel="stylesheet" href="/styles/partials/toggle.css" />
   <link rel="stylesheet" href="/styles/pages/index.css" />
 
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -23,6 +24,8 @@
     rel="stylesheet" />
 
   <script src="/scripts/index.js" defer type="module"></script>
+  <script src="/scripts/dark-mode.js" defer type="module"></script>
+
 </head>
 
 <body id="page-index">
@@ -72,12 +75,16 @@
             Encerrados
           </div>
         </div>
-        <a class="button orange" href="/job">
-          <span>
-            <img src="/images/plus-24.svg" alt="Novo Job" />
-          </span>
-          Adicionar novo job
-        </a>
+        <div class="buttons">
+          <input id="darkMode" type="checkbox" class="toggle" title="Tema escuro">
+
+          <a class="new-job button orange" href="/job">
+            <span>
+              <img src="/images/plus-24.svg" alt="Novo Job" />
+            </span>
+            Adicionar novo job
+          </a>
+        </div>
       </section>
     </div>
   </header>

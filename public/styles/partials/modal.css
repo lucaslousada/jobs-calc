@@ -22,7 +22,7 @@
 }
 
 .modal {
-  background: #F0F2F5;
+  background: var(--color-card);
 
   border-radius: 0.313rem;
 
@@ -77,7 +77,7 @@
 }
 
 .modal footer button:nth-child(1):hover {
-  background: #ECEEF0;
+  background: var(--color-background);
 }
 
 .modal footer button:nth-child(2) {

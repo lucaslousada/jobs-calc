@@ -28,7 +28,7 @@ button.button {
 }
 
 .button.orange:hover {
-  background: #FA9C2D
+  background: var(--color-secondary-hover)
 }
 
 .button.green {
@@ -46,7 +46,7 @@ button.button {
 }
 
 .button.gray:hover {
-  background: #ECEEF0;
+  background: var(--color-background);
 }
 
 .button.red {
@@ -59,12 +59,12 @@ button.button {
 }
 
 .button.white {
-  background: #FCFDFF;
-  border: 1px solid #E1E3E6;
+  background: var(--color-card);
+  border: 1px solid var(--color-card-border);
 }
 
 .button.white:hover {
-  background: #F0F2F5;
+  background: var(--color-background);
 }
 
 .button-group {

@@ -9,6 +9,7 @@
 :root {
   --color-background: #F0F2F5;
   --color-text: #FCFDFF;
+  --color-card: #FCFDFF;
 
   --color-primary: #41414C;
   --color-secondary: #F1972C;
@@ -22,7 +23,9 @@
   --color-card-background: var(--color-text);
   --color-card-title: #5A5A66;
   --color-card-label: #BFBFCC;
+  --color-card-border: #E1E3E6;
   --color-card-content: #787880;
+  --color-card-hover: #FFFFFF;
 
   --color-cancel: #E1E3E5;
   --color-delete: #EB3B35; 
@@ -35,6 +38,39 @@
 
   --color-header-inner-title: var(--color-card-label)
 
+}
+
+.darkmode {
+  --color-background: #2f3136;
+  --color-text: #FCFDFF;
+  --color-card: #36393f;
+
+  --color-primary: #202225;
+  --color-secondary: #ce7100;
+  --color-secondary-hover: #ec7e00;
+ 
+  --color-input-background: #F8F8FC;
+  --color-button-text: #FFFFFF;
+  --color-hairline-in-dark: #4F4F5B;
+  --color-hairline-in-light: #E1E3E5;
+
+  --color-card-background: var(--color-text);
+  --color-card-title: #FFFFFF;
+  --color-card-label: #8a8c90;
+  --color-card-border: #2F3136;
+  --color-card-content: #FFFFFF;
+  --color-card-hover: #32353b;
+
+  --color-cancel: #55575a;
+  --color-delete: #EB3B35; 
+  --color-save: #36B336;
+  
+  --color-badge-progress-text: var(--color-save);
+  --color-badge-progress-background: #595f60;
+  --color-badge-done-text: var(--color-delete);
+  --color-badge-done-background:#5c5c60;
+
+  --color-header-inner-title: var(--color-card-label)
 }
 
 /* user-agent font-size is 16px, let's make it responsive */
