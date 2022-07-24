@@ -10,9 +10,11 @@ Este projeto foi desenvolvido na segunda edição da maratona discover da Rocket
 [![Repo Size](https://img.shields.io/github/repo-size/lucaslousada/jobs-calc?color=f1972c&style=flat-square)](#)
 [![License](https://img.shields.io/github/license/lucaslousada/jobs-calc?color=f1972c&style=flat-square)](LICENSE.md)
 
-<img alt="layout dashboard" src="./.github/app-preview.png" width="100%">
+<div>
+  <img alt="layout dashboard" src="./.github/app-preview.png" width="100%">
+</div>
 <p align="center">
-  Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning">deste link<a>
+  Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning">deste link<a>.
 </p>
 
 ## Tecnologias
